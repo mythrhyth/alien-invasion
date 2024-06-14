@@ -1,4 +1,5 @@
  
+ 
 import pygame
 import game_functions as gf
 from settings import Settings
@@ -26,18 +27,16 @@ def run_game():
     ship = Ship(ai_settings, screen)
     bullets = Group()
     aliens = Group()
+    gf.create_fleet(ai_settings, screen, ship, aliens)
     
     
     while True:
         
         gf.check_events(ai_settings, screen, ship, bullets )
         ship.update()
-        gf.create_fleet(ai_settings, screen, ship, aliens)
+        gf.update_bullets(bullets)
         gf.update_aliens(ai_settings, aliens)
         gf.update_screen(ai_settings, screen, ship, aliens, bullets) #to update the display by swapping the contents of the backbuffer with the front buffer 
-        gf.create_fleet(ai_settings, screen, ship, aliens)
-        
-        bullets.update()
         
         #Get rid of the bullets that have disappeared. 
         for bullet in bullets.copy():
@@ -49,3 +48,4 @@ def run_game():
         
         
 run_game()
+
