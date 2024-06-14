@@ -17,7 +17,6 @@ Welcome to the Alien Invasion Game, a classic arcade-style game built using Pyth
 - Classic space shooter gameplay
 - Multiple levels with increasing difficulty
 - High score tracking
-- Sound effects and music
 - Smooth animations and responsive controls
 
 ## Requirements
