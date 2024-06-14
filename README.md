@@ -88,5 +88,5 @@ Please make sure to update tests as appropriate.
 
 ---
 
-Enjoy defending Earth from the alien invasion! If you have any questions or need further assistance, feel free to open an issue or contact us at [your-email@example.com](mailto:rhythmbhetwal77@gmail.com). Happy gaming!
+Enjoy defending Earth from the alien invasion! If you have any questions or need further assistance, feel free to open an issue or contact us at [rhythmbhetwal77@gmail.com](mailto:rhythmbhetwal77@gmail.com). Happy gaming!
 
